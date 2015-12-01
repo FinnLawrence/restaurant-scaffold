@@ -1,0 +1,55 @@
+# # # # # # # # #
+# MASTER CONFIG #
+# # # # # # # # #
+
+# Site Title
+title: Restaurant Scaffold Site
+
+# Site Description
+description: This is a test
+
+# Phone Number
+phone_number: (04) 545 8098
+
+# Hours
+hours_monday: 9am - 5pm
+hours_tuesday: 9am - 5pm
+hours_wednesday: 9am - 5pm
+hours_thursday: 9am - 5pm
+hours_friday: 9am - 7pm
+hours_saturday: 10am - 5pm
+hours_sunday: Closed
+
+# Base URL for index.html
+baseurl: ""
+
+# Collections definition (posts is default)
+collections:
+  menus: {}
+
+# Site Author
+author:
+
+# Font (must be from Google Web Fonts)
+# Import names for html <link> tag and css font-family
+font_html: Open+Sans
+font_css: Open Sans
+
+# Google Analytics
+ga_installed: false
+# GA Unique ID e.g. UA-XXXXX-Y
+ga_uid:
+
+
+# # # # # # # # #
+# STYLE CONFIG  #
+# # # # # # # # #
+
+# Base font size
+base_font_size: "14px"
+
+# COLORS
+primary_color:   #80c9ff
+secondary_color: #454545
+bg_color:        #f8f8f8
+font_color:      #111111

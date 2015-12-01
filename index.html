@@ -1,0 +1,34 @@
+---
+layout: homepage
+---
+
+<section class="container">
+    <div class="six columns">
+        <img src="http://www.diamondcoast.ie/upload/sequencer_images/dining-3.jpg" alt="Food image"/>
+    </div>
+    <div class="six columns">
+        <h1 class="editable">Restaurant name</h1>
+        <p class="editable">Some description text Lorem ipsum etc</p>
+    </div>
+</section>
+<section class="container">
+    <div class="eight columns">
+        <h3 class="editable">Some secondary content</h3>
+        <p class="editable">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet augue blandit libero maximus rhoncus ac non quam. Praesent vitae ipsum quis ligula euismod molestie. Morbi imperdiet sagittis massa in pharetra. Nulla nec velit ligula. Nunc ut venenatis urna. Vivamus varius ligula leo, in luctus nulla fermentum eget. Maecenas tempus in nulla non volutpat.</p>
+    </div>
+    <div class="four columns contact">
+        <h4 class="editable">Opening Hours</h4>
+        <table class="hours">
+            <tr><td>Monday:</td><td>{{ site.hours_monday }}</td></tr>
+            <tr><td>Tuesday:</td><td>{{ site.hours_tuesday }}</td></tr>
+            <tr><td>Wednesday:</td><td>{{ site.hours_wednesday }}</td></tr>
+            <tr><td>Thursday:</td><td>{{ site.hours_thursday }}</td></tr>
+            <tr><td>Friday:</td><td>{{ site.hours_friday }}</td></tr>
+            <tr><td>Saturday:</td><td>{{ site.hours_saturday }}</td></tr>
+            <tr><td>Sunday:</td><td>{{ site.hours_sunday }}</td></tr>
+        </table>
+        
+        <h4 class="editable">Contact</h4>
+        <a class="tel" href="tel:{{ site.phone_number }}">{{ site.phone_number }}</a>
+    </div>
+</section>

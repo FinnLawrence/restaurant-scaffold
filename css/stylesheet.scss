@@ -1,0 +1,31 @@
+---
+---
+
+
+body {
+    font-family: '{{ site.font_css }}', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    padding-top: 3rem;
+}
+
+.contact h4 {
+    margin-bottom: 1rem;
+}
+
+table.hours td {
+    padding: 0px 10px;
+}
+
+table.hours td:first-child {
+    padding-left: 0px;
+}
+
+table.hours td:last-child {
+    padding-right: 0px;
+}
